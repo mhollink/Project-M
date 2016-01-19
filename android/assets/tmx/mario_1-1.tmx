@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="210" height="13" tilewidth="16" tileheight="16" nextobjectid="111">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="226" height="13" tilewidth="16" tileheight="16" nextobjectid="115">
  <tileset firstgid="1" name="Mario_Tiles" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="629" columns="37">
-  <image source="../Documents/Mario_Tiles.png" trans="6d9fb9" width="630" height="302"/>
+  <image source="../graphics/tilesheets/Mario_Tiles.png" trans="6d9fb9" width="630" height="302"/>
  </tileset>
  <tileset firstgid="630" name="Cloud" tilewidth="16" tileheight="16" tilecount="24" columns="8">
-  <image source="../Documents/Cloud.png" width="128" height="48"/>
+  <image source="../graphics/tilesheets/Cloud.png" width="128" height="48"/>
  </tileset>
- <layer name="Background" width="210" height="13">
+ <layer name="Background" width="226" height="13">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6DOv5OqrImdkNBLqqqqqqqqqqqqqqrPB0fuH/g=
+   eJztwzENAAAMA6DOv5OqrI0dkNBLqqqqqqqqqqqqqqrqmwMcY6ro
   </data>
  </layer>
- <layer name="Detail" width="210" height="13">
+ <layer name="Detail" width="226" height="13">
   <data encoding="base64" compression="zlib">
-   eJztmOtugkAQhRffyHh5NNRW1FbRavWdPfyYhm5YYBdYxnG+5CQaYXbum2hMXNKJMStoDW2gD+gT2kLZJLIzyh+S6sIllrIffZ+/g509dIC+oG/oCJ2gPOAMO2evWPe2SKpL2mAztZ4lWxxjaeNH0/lVMdadccZvF+gHukI36Be6Q4+K98i+y3c7Z6G5CiH23pNUF5+dULZFNjjF0saPuvNdMfYJ2Xf5bufM9lXSDpdUF5+dULblinfMWPpg6BjJfqjvkna4D2PUZZYYM0/8/WvaCUPTtcfeAUk7nDsZZujQco4UuXC/WzlT3EVLnSNF6URxF+10jtiQow5n6JJUf1d4onOk1EFzPOYsFz2aMe9PmqOFx38Nkui6+8t9Nna/xWQa8E6e/P8sKVc0R3u9kwYlpO+UONBMu2bb3pVVz9EcKYp0pkb3GdF3Hp5GQ8xm
+   eJztmNluwkAMRSf8EQL6aWEN0AIJLeWfuXmYMrKyMAmTcVwf6T6gEOPdEsYMSzoxZgmtoDW0gbbQDsomAzuj/CGpLlJiceN4t/972DlAR+gT+oJO0Bm6dPgNmvOx5doHSXVJW2ym5LvWFsdYQuHG0eZ/VY6afMzxrICu0Df0A92gX+he8Z61Xxc7zXnXXHdh6L0rqS4+O8W1ZW1wiiUUbhxN/lMfQ/hm7dfFTnNOfZV0QyTVxWenuLbq4o0ZCwdC58ja7xq7pBviQ4y6zBJj5om/f207JTR9e0xpR9IN4U6GGTy+OIeKUgf3286Z8hZ+6BwqSlTKW7jXORTDBXXMoSJ5fi60tuzROVRCYvdCHnEflD2eMe9vO4cLj/9qlCf09vj2m9unsft1SKY93/fJ9Zjm8KA3kTV9+/a/EzJ/dJfS3UCfV+0QO4eKojQzNe+f57HuV25+PwDPXsy4
   </data>
  </layer>
- <layer name="Graphics" width="210" height="13">
+ <layer name="Graphics" width="226" height="13">
   <data encoding="base64" compression="zlib">
-   eJztl0tSwzAMht1NNry2bOAMQFt2XIZjAC3chfdNoMAtuAEb2CHPxDOOsGX5kcSl+mf+SR92Iqv6LFcpkUgkEolElKYTpWaTsaMQidZbC2BoKRyJRB014M/2Ssn0oZo5MutoHK9F/0NfkeNrOz8ZfmrmKFcxOa/t99kU7UfmnFOvrr23L+l45uBTIq4L8KXlqx7j6UOunDfI1FhR/zpL4Ghe0Z6n47luaydUP4uM5xgWh2Qw5cya8/v42KxZj+An8Ht7fR4pjhSOdN3eZHD0Df4hvt8Fb1veY8TD4WgZGeefZyXM2VLdtWDvUM9LOLPa+RhS3P+zfekDvR+arzE4OoC5h8T8KfjY8swxhqpPX226OMJnPmy7/6RweKS6a8E+IeZyzqxGt+A78D34QdG50PsUtTfVJg4TmKPQ55TwPh7ay7XWlSOqPn21yeGA6jm++Zyek8qRr9dibl7Ar+AV+C1wf51fnFPXGqheGTpTcMfEiGKiJEe4/nw1aOs8ggeqVkoa192QHFFjfN9xek5srCE2fdxw7u/iyLUGivHQXuga4+uZ3D2/BEec3pbC0SqCI6pWShrX3SZyFLpnTC6xuBy5zjc5DrEfqtWS/Yi6F+aodB5+Ae1zjoU=
+   eJztl01SwzAMhd1NNkDZsoEzAGnZcRmOAbRwG+AqBW7BDdjADmUmmXGFLMs/cQzRm3mTNrVj2dFnucaoVCqVSqWqWe3CmNVi6ihUqnlrAwxulUOVKqsa8Ed/5TTUwZo5HObREJ9V/0Ofhcer7fw38Fczh6kKWfPa3s9cdFJ4zSX5Tu39Y8azBl8xcd2C7yzfjxjPGKLWvEHm2qrG1/UEHK4r2nO7eB763PPl3yZhnIHlkgzHnLlT3o+L7Zr1BH4Gv/XXl4nimILDLu8fE8b9An8zvy/Bh5aPBfFIONwGxvlrrIg+B2Z/LthH3HgRZ257PUpK+n9+LL2j76X5/IscnkLfM6Z/C76wvCLacPntym2KQ3xmxbbrXwzH52Z/LtiXTF/JmZuSvY9Re9jScb9WSZjCHPruc8J1wFcLOs2VQy6/Xbkt4Yirea7+kpoXy6G01tuy149au5a4T82Bq9W+M420TYg4pnJyiPPPtY62bgpyyOVaTuO8Lckh18b1m6TmhcbqY1u6flIOqTlwe4RvL6XaUHUmpObk4FBSW2M43BXkkMu1nMZ5O0cOfc+UjpfCoY+bUHecvYJ3/TU013PWQ+5ZmMPc65DqH4R/gKU=
   </data>
  </layer>
  <objectgroup name="Ground">
@@ -27,24 +27,18 @@
   <object id="58" x="560" y="144" width="128" height="64"/>
   <object id="59" x="1120" y="160" width="144" height="48"/>
   <object id="61" x="1232" y="128" width="144" height="80"/>
-  <object id="62" x="1456" y="176" width="128" height="32"/>
-  <object id="63" x="1712" y="144" width="48" height="64"/>
-  <object id="65" x="1584" y="176">
-   <polygon points="0,0 128,-32 128,32 0,32 0,0"/>
-  </object>
+  <object id="62" x="1456" y="176" width="256" height="32"/>
+  <object id="63" x="1696" y="144" width="64" height="64"/>
   <object id="66" x="1824" y="144" width="32" height="64"/>
   <object id="67" x="1904" y="160" width="96" height="48"/>
-  <object id="68" x="1984" y="192" width="320" height="16"/>
-  <object id="69" x="2368" y="176" width="80" height="32"/>
+  <object id="68" x="1984" y="192" width="336" height="16"/>
+  <object id="69" x="2304" y="176" width="144" height="32"/>
   <object id="70" x="2528" y="144" width="80" height="16"/>
   <object id="71" x="2640" y="112" width="80" height="16"/>
   <object id="72" x="2736" y="128" width="80" height="16"/>
   <object id="73" x="2832" y="176" width="80" height="16"/>
   <object id="74" x="2976" y="144" width="96" height="64"/>
-  <object id="77" x="3040" y="192" width="336" height="16"/>
-  <object id="82" x="2304" y="192">
-   <polygon points="0,0 64,-16 64,16 0,16 0,0"/>
-  </object>
+  <object id="77" x="3040" y="192" width="576" height="16"/>
   <object id="102" x="3184" y="176" width="16" height="16"/>
  </objectgroup>
  <objectgroup name="Mushrooms">
