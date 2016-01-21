@@ -8,7 +8,6 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 import nl.icode4living.projectm.GdxGame;
-import nl.icode4living.projectm.util.MapLoader;
 
 public class MenuScreen implements Screen{
 
@@ -22,7 +21,6 @@ public class MenuScreen implements Screen{
         camera = new OrthographicCamera();
         viewport = new FitViewport(GdxGame.V_WIDTH/GdxGame.PPM, GdxGame.V_HEIGHT/GdxGame.PPM, camera);
 
-        MapLoader.getInstance().loadMap("tmx/mario_menu.tmx");
         camera.position.set((viewport.getWorldWidth()/2),(viewport.getWorldHeight()/2),0);
     }
 
@@ -37,19 +35,16 @@ public class MenuScreen implements Screen{
         handleInput(delta);
         camera.update();
 
-        MapLoader.getInstance().getOrthogonalTiledMapRenderer().setView(camera);
     }
 
     @Override
     public void render(float delta) {
         update(delta);
 
-
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        game.getBatch().setProjectionMatrix(camera.combined);
+        game.batch.setProjectionMatrix(camera.combined);
 
-        MapLoader.getInstance().getOrthogonalTiledMapRenderer().render();
     }
 
     @Override

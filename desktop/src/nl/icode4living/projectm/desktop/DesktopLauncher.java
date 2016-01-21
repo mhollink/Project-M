@@ -9,7 +9,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.width = 1219;
 		config.height = 634;
-		config.title = GdxGame.TITLE;
+		config.title = "MARIO";
 		new LwjglApplication(new GdxGame(), config);
 	}
 }
