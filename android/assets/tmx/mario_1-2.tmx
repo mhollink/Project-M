@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="520" height="13" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Mario_Tiles" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="629" columns="37">
+  <image source="../../../../../Mario_Tiles.png" trans="6d9fb9" width="630" height="302"/>
+ </tileset>
+ <layer name="Tilelaag 1" width="520" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6C9f5OlXI+jYC+pqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqquqjA2H1pHg=
+  </data>
+ </layer>
+ <layer name="Tilelaag 2" width="520" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt2tlNxDAQgGHnJU8IKgCJEhBUwFkDFXBtX0AvbBcpAiQe8IpEWhnH62PGSdj/k0bZI9lYsZUZO2sMAAAAUFdro+u3AAAAAABAH3Pxv9qtiPkc8zT0VWfoNwD/S2vISQAAALu82niz8dFv36dtzuxprA9RrwKADHedk/XOcuupG4BRnza+tt7zDAtALTxXlOE+v1jSddzX+mAJfXXcGHPShPdxawhpvnpcskbphH4HwLS070XIl/u8QKM+OLRxkBBHCm3INacxHlMfxOwDANpS7kWhHFEzH/jakXv+ktxRK++k5vthf8n/I5zbOEuIi4JzSduM8W+7vWl+4zIQV4V5OTQmbu1v31EfAFiIlHtRKEfUzAe+duSev+RenHNsTo2VWx/kHu9Toz7Qqrc2/XRq47mPh0A8Fubl0Jh4sZ+vnFrFFzE1BABom6o+SF2vduO+8PyD2vVBzjUM5XffGkFqfZDSF5r1gda8WXM+fp2Y291axRcrxfbG9PWcng0B+6IkH84l3Lycmw9S56Ol+ai0HpnyGsbM/9cjr2OOl+6LISSuVUyuiu1bjbz3lJjbpf5/sGutZez72L6WHvPUHEDYD1Vrdhw=
+  </data>
+ </layer>
+ <layer name="Tilelaag 3" width="520" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1UENACAMBEEUgBn8a8MADwIpJWFGweb6aCkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/KplB3zK7gDMvPIfenbAgVc23LG6ew2tIJLbwX0D0W8AwQ==
+  </data>
+ </layer>
+</map>
